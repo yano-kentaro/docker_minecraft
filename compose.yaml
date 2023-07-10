@@ -1,0 +1,16 @@
+services:
+  minecraft:
+    image: itzg/minecraft-server@sha256:25e323368327845c86c6e73492d03e7d7d0989ac1e2ae0aab3d678a18c954c3c
+    container_name: mc_server
+    environment:
+      EULA: "true"
+      VIEW_DISTANCE: 10
+      MEMORY: 2G
+      HOUSE: -2108 64 409
+    ports:
+      - 25565:25565
+    volumes:
+      - ./data:/data
+    restart: always
+    tty: true
+    stdin_open: true
