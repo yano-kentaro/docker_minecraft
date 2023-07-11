@@ -13,6 +13,7 @@
       "minecraft:sparse_jungle": "2023-07-08 08:20:23 +0000",
       "minecraft:lukewarm_ocean": "2023-07-08 08:00:57 +0000",
       "minecraft:river": "2023-07-08 08:10:59 +0000",
+      "minecraft:stony_shore": "2023-07-11 12:49:04 +0000",
       "minecraft:forest": "2023-07-08 08:16:45 +0000",
       "minecraft:lush_caves": "2023-07-08 12:42:16 +0000",
       "minecraft:desert": "2023-07-08 08:26:25 +0000",
@@ -501,9 +502,11 @@
     "criteria": {
       "cooked_mutton": "2023-07-08 14:47:05 +0000",
       "cooked_beef": "2023-07-09 02:30:30 +0000",
+      "baked_potato": "2023-07-11 13:19:36 +0000",
       "apple": "2023-07-09 05:57:56 +0000",
       "bread": "2023-07-08 08:14:19 +0000",
-      "melon_slice": "2023-07-08 08:30:52 +0000"
+      "melon_slice": "2023-07-08 08:30:52 +0000",
+      "carrot": "2023-07-11 12:44:33 +0000"
     },
     "done": false
   },
@@ -2505,7 +2508,9 @@
   },
   "minecraft:nether/explore_nether": {
     "criteria": {
-      "minecraft:soul_sand_valley": "2023-07-09 12:50:48 +0000"
+      "minecraft:crimson_forest": "2023-07-11 13:15:43 +0000",
+      "minecraft:soul_sand_valley": "2023-07-09 12:50:48 +0000",
+      "minecraft:nether_wastes": "2023-07-11 13:03:15 +0000"
     },
     "done": false
   },
@@ -2548,6 +2553,84 @@
   "minecraft:recipes/tools/lead": {
     "criteria": {
       "has_slime_ball": "2023-07-10 12:01:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2023-07-11 13:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2023-07-11 13:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-07-11 13:59:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_ingot_from_nuggets": {
+    "criteria": {
+      "has_gold_nugget": "2023-07-11 13:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_planks": {
+    "criteria": {
+      "has_logs": "2023-07-11 13:16:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/crimson_hyphae": {
+    "criteria": {
+      "has_log": "2023-07-11 13:16:09 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_gold_nugget": "2023-07-11 13:08:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2023-07-11 13:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2023-07-11 13:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/nether_brick": {
+    "criteria": {
+      "has_netherrack": "2023-07-11 13:05:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2023-07-11 13:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2023-07-11 13:05:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-07-11 13:59:51 +0000"
     },
     "done": true
   },
