@@ -1466,6 +1466,8 @@
       "minecraft:skeleton": "2023-07-08 10:07:44 +0000",
       "minecraft:spider": "2023-07-08 10:07:53 +0000",
       "minecraft:creeper": "2023-07-08 09:56:15 +0000",
+      "minecraft:slime": "2023-07-10 12:01:31 +0000",
+      "minecraft:phantom": "2023-07-10 13:27:48 +0000",
       "minecraft:witch": "2023-07-09 02:23:29 +0000",
       "minecraft:cave_spider": "2023-07-08 12:13:13 +0000",
       "minecraft:enderman": "2023-07-09 13:55:45 +0000",
@@ -2477,19 +2479,13 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/flower_banner_pattern": {
+  "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
-      "has_oxeye_daisy": "2023-07-09 13:48:33 +0000"
+      "has_golden_boots": "2023-07-09 12:43:30 +0000"
     },
     "done": true
   },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:soul_sand_valley": "2023-07-09 12:50:48 +0000"
-    },
-    "done": false
-  },
-  "minecraft:recipes/misc/gold_nugget_from_smelting": {
+  "minecraft:recipes/misc/gold_nugget_from_blasting": {
     "criteria": {
       "has_golden_boots": "2023-07-09 12:43:30 +0000"
     },
@@ -2507,15 +2503,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/gold_nugget_from_blasting": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_golden_boots": "2023-07-09 12:43:30 +0000"
+      "minecraft:soul_sand_valley": "2023-07-09 12:50:48 +0000"
     },
-    "done": true
+    "done": false
   },
   "minecraft:recipes/redstone/trapped_chest": {
     "criteria": {
       "has_tripwire_hook": "2023-07-09 13:21:13 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/mushroom_stew": {
+    "criteria": {
+      "has_bowl": "2023-07-09 13:22:28 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/flower_banner_pattern": {
+    "criteria": {
+      "has_oxeye_daisy": "2023-07-09 13:48:33 +0000"
     },
     "done": true
   },
@@ -2525,9 +2533,21 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/mushroom_stew": {
+  "minecraft:recipes/redstone/sticky_piston": {
     "criteria": {
-      "has_bowl": "2023-07-09 13:22:28 +0000"
+      "has_slime_ball": "2023-07-10 12:01:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2023-07-10 12:01:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/lead": {
+    "criteria": {
+      "has_slime_ball": "2023-07-10 12:01:50 +0000"
     },
     "done": true
   },
